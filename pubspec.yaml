@@ -1,0 +1,51 @@
+name: jewls
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.12.0+2
+  flutter_staggered_grid_view: ^0.3.0
+  fancy_bar: 1.2.0
+  cupertino_icons: ^0.1.2
+  firebase_analytics: ^5.0.2
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+5
+  firebase_core: ^0.4.5
+  dio: ^3.0.8
+  firebase_remote_config: ^0.3.0+1
+  flutter_spinkit: "^4.1.2"
+  flutter_launcher_icons: ^0.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/images/Group 208.png"
+  android: true
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/1.jpg
+
+  fonts:
+    - family: CartIcons
+      fonts:
+        - asset: fonts/CartIcons.ttf
+    - family: PlayfairDisplay
+
+      fonts:
+        - asset: fonts/PlayfairDisplay-Regular.ttf
+        - asset: fonts/PlayfairDisplay-Bold.ttf
